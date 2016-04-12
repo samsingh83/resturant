@@ -1,0 +1,41 @@
+.main-navi{
+	display:block;
+	nav{
+	display:block;
+	ul{
+	float:right;
+	li{
+	display:inline-block;
+	@media (min-width: $screen-sm-min){
+	padding:0 8px;
+	}
+	@media (min-width: $screen-md-min){
+	padding:0 15px;
+	}
+	line-height:15px;
+	background:url(#{$img-link}divider.png) left 1px no-repeat;
+	a{
+	color:$white;
+	text-transform:uppercase;
+	font-family: Georgia, serif;
+	@media (min-width: $screen-sm-min){
+	line-height:14px;
+	font-size:14px;
+	}
+	@media (min-width: $screen-md-min){
+	line-height:15px;
+	letter-spacing:1px;
+	font-size:15px;
+	}
+	text-decoration:none !important;
+	&:hover{
+	color:$title-color;
+	}
+	}
+	}
+	li:first-child{
+	background:none;
+	}
+	}
+	}
+}

@@ -1,0 +1,26 @@
+#welcome-home{
+	background:url(#{$img-link}bg-table.png) bottom left repeat-x #0d1114;
+	display:block;
+	.overlay-inner-1{
+	background:url(#{$img-link}salt.jpg) 180px top no-repeat;
+	.overlay-inner{
+	background:url(#{$img-link}table-overlay.png) bottom left no-repeat;
+	height:510px;
+	padding:50px 0;
+	text-align:center;
+	.half-width{
+	padding:0 35px;
+	}
+	h3{
+	font-size:60px;
+	color:$title-color;
+	}
+	p{
+	text-transform:uppercase;
+	font-size:18px;
+	line-height:30px;
+	color:$white;
+	}
+	}
+	}
+}

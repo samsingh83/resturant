@@ -1,0 +1,244 @@
+/*******************************************
+@author : bastikikang 
+@author email: basti@codemywebapps.com
+@author website : http://codemywebapps.com
+*******************************************/
+
+
+body.full_layout2 .main_content .main{
+width:95%;
+margin:auto;
+}
+
+body{
+background-attachment:fixed !important;
+}
+
+
+
+/********************************* START THEMES 2 *********************************/
+body.layout_themes2.full_layout2 .footer, body.layout_themes2.full_layout2 .main_content{
+width:100%;
+margin:auto;
+}
+
+body.layout_themes2.full_layout2 .header{
+background:none;
+}
+
+body.layout_themes2.full_layout2 .header .main, body.layout_themes2 .sider_bar_wrap{
+background:#614E40;
+}
+
+body.layout_themes2.full_layout2 .main_content{
+margin:auto;
+background:#FFFFFF;
+}
+body.layout_themes2.full_layout2{
+background:url("../images/foodbg1.jpg");
+background-size:cover;
+background-attachment:fixed;
+}
+
+body.layout_themes2.full_layout2 .footer .main{
+padding-left:8px;
+padding-right:8px;
+}
+
+body.layout_themes2.full_layout2 .site_title{
+padding-left:8px;
+}
+/********************************* END THEMES 2 *********************************/
+
+
+/********************************* START THEMES 3 *********************************/
+body.layout_themes3.full_layout2 .footer, body.layout_themes3.full_layout2 .main_content{
+width:950px;
+margin:auto;
+}
+
+
+body.layout_themes3 .wish_list_wrap a{
+color:#000000 !important;
+}
+
+body.layout_themes3.full_layout2 .header{
+background:none;
+}
+
+body.layout_themes3.full_layout2 .header .main, body.layout_themes3 .sider_bar_wrap{
+background:#264A5F;
+}
+
+body.layout_themes3.full_layout2 .main_content{
+margin:auto;
+background:#FFFFFF;
+}
+body.layout_themes3.full_layout2{
+background:url("../images/foodbg1.jpg");
+background-size:cover;
+background-attachment:fixed;
+}
+
+body.layout_themes3.full_layout2 .footer .main{
+padding-left:8px;
+padding-right:8px;
+}
+
+body.layout_themes3.full_layout2 .site_title{
+padding-left:8px;
+}
+/********************************* END THEMES 3 *********************************/
+
+
+/********************************* START THEMES 4 *********************************/
+body.layout_themes4.full_layout2 .footer, body.layout_themes4.full_layout2 .main_content{
+width:950px;
+margin:auto;
+}
+
+body.layout_themes4.full_layout2 .header{
+background:none;
+}
+
+body.layout_themes4.full_layout2 .header .main, body.layout_themes4 .sider_bar_wrap{
+background:#420407;
+}
+
+body.layout_themes4.full_layout2 .main_content{
+margin:auto;
+background:#FFFFFF;
+}
+body.layout_themes4.full_layout2{
+background:url("../images/foodbg1.jpg");
+background-size:cover;
+background-attachment:fixed;
+}
+
+body.layout_themes4.full_layout2 .footer .main{
+padding-left:8px;
+padding-right:8px;
+}
+
+body.layout_themes4.full_layout2 .site_title{
+padding-left:8px;
+}
+/********************************* END THEMES 4 *********************************/
+
+
+/********************************* START THEMES 5 *********************************/
+body.layout_themes5.full_layout2 .footer, body.layout_themes5.full_layout2 .main_content{
+width:950px;
+margin:auto;
+}
+
+body.layout_themes5.full_layout2 .header{
+background:none;
+}
+
+body.layout_themes5.full_layout2 .header .main, body.layout_themes5 .sider_bar_wrap{
+background:#A8BE93;
+}
+
+body.layout_themes5.full_layout2 .main_content{
+margin:auto;
+background:#FFFFFF;
+}
+body.layout_themes5.full_layout2{
+background:url("../images/foodbg1.jpg");
+background-size:cover;
+background-attachment:fixed;
+}
+
+body.layout_themes5.full_layout2 .footer .main{
+padding-left:8px;
+padding-right:8px;
+}
+
+body.layout_themes5.full_layout2 .site_title{
+padding-left:8px;
+}
+/********************************* END THEMES 5 *********************************/
+
+
+/********************************* START THEMES 6 *********************************/
+body.layout_themes6.full_layout2 .footer, body.layout_themes6.full_layout2 .main_content{
+width:950px;
+margin:auto;
+}
+
+body.layout_themes6.full_layout2 .header{
+background:none;
+}
+
+body.layout_themes6.full_layout2 .header .main, body.layout_themes6 .sider_bar_wrap{
+background:#020202;
+}
+
+body.layout_themes6.full_layout2 .main_content{
+margin:auto;
+background:#FFFFFF;
+}
+body.layout_themes6.full_layout2{
+background:url("../images/bg-dot.png");
+}
+
+body.layout_themes6.full_layout2 .footer .main{
+padding-left:8px;
+padding-right:8px;
+}
+
+body.layout_themes6.full_layout2 .site_title{
+padding-left:8px;
+}
+
+body.layout_themes6.full_layout2 .main_content{
+margin:auto;
+background:#FFFFFF;
+margin-top:10px;
+margin-bottom:10px;
+}
+
+/********************************* END THEMES 6 *********************************/
+
+
+/********************************* START THEMES 7 *********************************/
+body.layout_themes7.full_layout2 .footer, body.layout_themes7.full_layout2 .main_content{
+width:950px;
+margin:auto;
+}
+
+body.layout_themes7.full_layout2 .header{
+background:none;
+}
+
+body.layout_themes7.full_layout2 .header .main{
+}
+
+body.layout_themes7.full_layout2 .main_content{
+margin:auto;
+background:#FFFFFF;
+}
+body.layout_themes7.full_layout2{
+background:url("../images/foodbg1.jpg");
+background-size:cover;
+background-attachment:fixed;
+}
+
+body.layout_themes7.full_layout2 .footer .main{
+padding-left:8px;
+padding-right:8px;
+}
+
+body.layout_themes7.full_layout2 .site_title{
+padding-left:8px;
+}
+
+body.layout_themes7.full_layout2 .main_content{
+margin:auto;
+background:#FFFFFF;
+margin-top:10px;
+margin-bottom:10px;
+}
+
+/********************************* END THEMES 7 *********************************/

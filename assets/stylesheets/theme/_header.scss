@@ -1,0 +1,39 @@
+header{
+	position:fixed;
+	min-height:160px;
+	background:url(#{$img-link}header.png) repeat;
+	width:100%;
+	left:0;
+	top:0;
+	display:block;
+	z-index:1000;
+	#logo{
+	padding:10px 0;
+	@include make-sm-column(4);
+	text-align:center;
+	@media (min-width: $screen-sm-min){
+	text-align:left;
+	}
+	img{
+	max-width:355px;
+	width:100%;
+	}
+	}
+	#right-nav{
+	@include make-sm-column(8);
+	/*--top nav ---*/
+	.top-nav{
+	border:2px solid  $border-color-top;
+	color:$title-color;
+	border-top:none !important;
+	@media (min-width: $screen-sm-min){
+	float:right;
+	
+	}
+	}
+	.main-navi{
+	display:block;
+	padding-top:44px;
+	}
+	}
+}

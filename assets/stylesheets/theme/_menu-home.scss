@@ -1,0 +1,54 @@
+#menu-home{
+	display:block;
+	padding:50px 0;
+	.img-holder-main{
+	text-align:center;
+	img{
+	max-width:562px;
+	width:100%;
+	}
+	}
+	h2{
+	text-transform:uppercase;
+	padding-bottom:20px;
+	background:url(#{$img-link}divider-bottom.png) bottom left no-repeat;
+	}
+	.menu{
+	ul{
+	display:block;
+	text-align:left;
+	li{
+	margin:15px 0;
+	display:block;
+	.img-holder{
+	@include make-sm-column(3);
+	img{
+	border-radius:100px;
+	max-width:104px;
+	width:100%;
+	}
+	}
+	.desc{
+	@include make-sm-column(6);
+	padding:0 15px;
+	padding-top:20px;
+	h5{
+	text-transform:uppercase;
+	}
+	p{
+	font-size:14px;
+	}
+	}
+	.price{
+	@include make-sm-column(3);
+	border-top:1px solid $brown-color;
+	margin-top:20px;
+	border-bottom:1px solid $brown-color;
+	font-family:$font-family-montez;
+	font-size:40px;
+	color:$brown-color;
+	}
+	}
+	}
+	}
+}

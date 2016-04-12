@@ -1,0 +1,129 @@
+a{
+	font-size: $font-size-base;
+}
+
+p{
+	font-size: $font-size-base;
+    line-height: $line-height-base;
+    padding:0 0 15px 0;
+}
+h1, h2, h3, h4, h5, h6{
+  font-weight:normal;
+}
+h1{
+	font-family:$font-family-suranna;
+	font-size:$font-size-h1;
+	line-height:$font-size-h1;
+	margin:0 0 20px 0;
+}
+h2{
+	font-family:$font-family-suranna;
+	font-size:$font-size-h2;
+	line-height:$font-size-h2;
+	margin:0 0 20px 0;
+}
+h3{
+	font-family:$font-family-montez;
+	font-size:$font-size-h3;
+	line-height:$font-size-h3;
+	margin:0 0 15px 0;
+	color:$brown-color;
+}
+h4{
+	font-family:$font-family-suranna;
+	font-size:$font-size-h4;
+	line-height:$font-size-h4;
+	font-weight:normal;
+	margin:0 0 10px 0;
+}
+h5{
+	font-family:$font-family-suranna;
+	font-size:$font-size-h5;
+	line-height:$font-size-h5;
+	margin:0 0 10px 0;
+}
+h6{
+	font-family:$font-family-montez;
+	font-size:$font-size-h5;
+	line-height:$font-size-h5;
+	margin:0 0 10px 0;
+}
+#content ul{
+	margin:10px 0;
+	padding:0 10px;
+	list-style:none;
+	text-align:left;
+}
+#content ul li{
+	font-size: $font-size-base;
+	line-height: $line-height-base;
+	background:url(#{$img-link}unorder-list.png) 4px 4px no-repeat;
+	padding:0 0 5px 20px;
+	font-size:16px;
+}
+ol{
+	list-style-type: none;
+	margin: 0;
+	margin-left:0;
+	padding-left:40px;
+	counter-reset: li-counter;
+}
+ol > li{
+	position: relative;
+	margin-bottom: 20px;
+	min-height: 3em;
+	font-size:16px;
+}
+ol > li:before {
+	position: absolute;
+	top: 0;
+	left: -1.20em;
+	width: 0.9em;
+	height: 0.9em;
+	font-size:24px;
+	line-height: 1.2;
+	text-align: center;
+	color: #26b0dd;
+	content: counter(li-counter) '. ';
+	counter-increment: li-counter;
+}
+blockquote {
+  font-size:16px;
+  line-height:24px;
+  text-align:left;
+  color: #887b6c;
+  max-width: 700px;
+  display: inline-block;
+  padding:20px 40px;
+}
+blockquote span{
+}
+blockquote:before {
+	content: " ";
+	font-size:16px;
+	text-align: left;
+	line-height: 24px;
+	color: #fff;
+	float: left;
+	position: relative;
+    background: url(../images/site-structure/quote-open.png) left top no-repeat;
+	display: block;
+	height: 13px;
+	width: 30px;
+}
+blockquote:after {
+	content: " ";
+	font-size:16px;
+	text-align:left;
+	line-height: 24px;
+	color: #fff;
+	position: relative;
+	background: url(../images/site-structure/quote-close.png) right bottom no-repeat;
+	display: inline-block;
+	height: 13px;
+	width: 30px;
+}
+
+.clearfix:before, .clearfix:after { content: ""; display: table; }
+.clearfix:after { clear: both; }
+.clearfix { zoom: 1; }

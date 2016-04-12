@@ -1,0 +1,40 @@
+.full-wrapper{
+	max-width:$base-width;
+	margin:$base-margin;
+}
+.wrap{
+	max-width:$base-width;
+	margin:$base-margin;
+	padding:0 15px;
+}
+.row{
+	@include make-row();
+}
+.full-width{
+	@include make-sm-column(12);
+}
+.half-width{
+	@include make-sm-column(6);
+}
+.three-width{
+	@include make-sm-column(4);
+}
+.center-content{
+    text-align:center;
+}
+
+.pad-30{
+	padding:30px 0;
+}
+.clear{
+	clear:both;
+	height:1px;
+	display:block;
+}
+
+.clear{
+  clear:both;
+  height:0;
+  overflow:hidden;
+  display:block;
+  }

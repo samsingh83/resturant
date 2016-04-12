@@ -1,0 +1,21 @@
+#visit-us{
+	display:block;
+	.overlay-inner{
+	background:url(#{$img-link}slide-overlay.png) repeat;
+	padding:200px 0;
+	text-align:center;
+	h3{
+	font-size:60px;
+	color:$title-color;
+	margin-bottom:50px;
+	display:block;
+	}
+	h4{
+	font-size:50px;
+	color:$white;
+	background:url(#{$img-link}spoon-knife.png) bottom center no-repeat;
+	padding-bottom:60px;
+	text-transform:uppercase;
+	}
+	}
+}

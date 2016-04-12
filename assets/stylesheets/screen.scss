@@ -1,0 +1,35 @@
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800);
+@import url(https://fonts.googleapis.com/css?family=Montez);
+/*font-family: 'Montez', cursive;*/
+@import url(https://fonts.googleapis.com/css?family=Suranna);
+/*font-family: 'Suranna', serif;*/
+@import url(https://fonts.googleapis.com/css?family=Oswald:700);
+/*font-family: 'Oswald', sans-serif;*/
+@import "compass/reset";
+@import "bootstrap/variables";
+@import "bootstrap/mixins";
+@import "bootstrap/responsive-utilities";
+@import "bootstrap/utilities";
+@import "bootstrap/scaffolding";
+@import "theme/comman";
+@import "theme/font-text";
+@import "theme/header";
+@import "theme/top-nav";
+@import "theme/desktop-navi";
+@import "theme/settings";
+@import "theme/about-main";
+@import "theme/welcome-home";
+@import "theme/visit-us";
+@import "theme/menu-home";
+@import "theme/celebrate";
+@import "theme/google-map";
+@import "theme/footer";
+
+
+
+
+

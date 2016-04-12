@@ -1,0 +1,32 @@
+#celebrate{
+	display:block;
+	padding:50px 0;
+	.img-holder{
+	text-align:center;
+	img{
+	max-width:562px;
+	width:100%;
+	}
+	}
+	.content-area{
+	text-align:center;
+	padding:50px 30px;
+	padding-bottom:0;
+	ul{
+	font-size:0;
+	padding-bottom:20px;
+	background:url(#{$img-link}divider-bottom.png) bottom center no-repeat;
+	li{
+	display:inline-block;
+	padding:5px;
+	padding-left:30px;
+	padding-right:20px;
+	font-size:18px;
+	background:url(#{$img-link}dotted.png) left 15px no-repeat;
+	}
+	li:first-child{
+	background:none;
+	}
+	}
+	}
+}
